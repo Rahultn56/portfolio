@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rahul | Full Stack Developer & IT Student</title>
+  <meta name="description" content="Portfolio of Rahul, 2nd Year B.Tech Information Technology student & aspiring Full Stack Developer." />
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Stylesheets (Both style.css and index.css supported) -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <a href="#home" class="logo">
+        <span class="logo-bracket">&lt;</span>Rahul<span class="logo-dot">.</span><span class="logo-bracket">/&gt;</span>
+      </a>
+      
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#certificates" class="nav-link">Certificates</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-btn" aria-label="Toggle Dark/Light Mode" title="Toggle Theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button id="menuToggle" class="menu-btn" aria-label="Toggle Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-container">
+      <div class="hero-badge">
+        <span class="badge-dot"></span> Available for Projects & Internships
+      </div>
+      <h1 class="hero-title">
+        Hi, I'm <span class="gradient-text">Rahul</span> 👋
+      </h1>
+      <p class="hero-subtitle">
+        I am a <span id="typingText" class="typing-text"></span><span class="cursor">|</span>
+      </p>
+      <p class="hero-desc">
+        B.Tech Information Technology student passionate about building clean, accessible, and high-performance Full Stack web applications with Node.js, Express, React, and MongoDB.
+      </p>
+      
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">
+          <i class="fa-solid fa-code"></i> View My Work
+        </a>
+        <a href="#contact" class="btn btn-secondary">
+          <i class="fa-solid fa-envelope"></i> Get In Touch
+        </a>
+      </div>
+
+      <div class="social-links">
+        <a href="https://github.com/Rahultn56" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub Profile">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="mailto:24itr089rahul@gmail.com" aria-label="Email" title="Email Me">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a href="#contact" aria-label="Contact" title="Message Me">
+          <i class="fa-solid fa-paper-plane"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Know Who I Am</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-avatar-wrap">
+          <div class="avatar-card">
+            <div class="avatar-circle">
+              <span class="avatar-initials">R</span>
+            </div>
+            <div class="avatar-info">
+              <h3>Rahul</h3>
+              <p>B.Tech IT (2nd Year)</p>
+              <div class="avatar-tag">Aspiring Full Stack Developer</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-text">
+          <h3>Passionate Learner & Developer</h3>
+          <p>
+            Hello! I am <strong>Rahul</strong>, currently in my 2nd year of <strong>B.Tech Information Technology</strong>. I am enthusiastic about web development and on an active path toward mastering full-stack engineering.
+          </p>
+          <p>
+            I love understanding how modern web systems work end-to-end — from database modeling and API architecture to responsive, dynamic client interfaces. I regularly practice problem-solving in C and Java, and continuously build real-world MERN stack projects.
+          </p>
+
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <div>
+                <strong>Education</strong>
+                <span>B.Tech in Information Technology (2nd Year)</span>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <i class="fa-solid fa-bullseye"></i>
+              <div>
+                <strong>Current Focus</strong>
+                <span>MERN Stack (MongoDB, Express, React, Node.js)</span>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <i class="fa-solid fa-laptop-code"></i>
+              <div>
+                <strong>Interests</strong>
+                <span>Full Stack Systems, Automation, Database Design</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Technical Arsenal</span>
+        <h2 class="section-title">My Skills & Tools</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" />
+          <h3>HTML5</h3>
+          <span>Semantic Layouts</span>
+        </div>
+        
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" />
+          <h3>CSS3</h3>
+          <span>Responsive & Flex/Grid</span>
+        </div>
+        
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+          <h3>JavaScript</h3>
+          <span>ES6+ & Async/Await</span>
+        </div>
+
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C Language" />
+          <h3>C Language</h3>
+          <span>Data Structures & Basics</span>
+        </div>
+
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
+          <h3>Java</h3>
+          <span>OOP & Problem Solving</span>
+        </div>
+
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" />
+          <h3>Node.js</h3>
+          <span>Server Runtime & NPM</span>
+        </div>
+
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" class="invert-dark" alt="Express.js" />
+          <h3>Express.js</h3>
+          <span>REST APIs & Routing</span>
+        </div>
+
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" />
+          <h3>MongoDB</h3>
+          <span>Mongoose & NoSQL</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Portfolio Work</span>
+        <h2 class="section-title">Featured Projects</h2>
+      </div>
+
+      <div class="project-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-category">Full Stack MERN</span>
+            <div class="project-links">
+              <a href="https://github.com/Rahultn56/Leave-management" target="_blank" rel="noopener noreferrer" title="View Source Code">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://rahultn56.github.io/Leave-management/" target="_blank" rel="noopener noreferrer" title="Live Demo">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+          <h3>Leave Management System</h3>
+          <p>
+            Enterprise leave application platform with multi-tab dashboard, working days calculation (excluding weekends), approval workflows, employee directory, and MongoDB integration.
+          </p>
+          <div class="tech-tags">
+            <span>Node.js</span>
+            <span>Express</span>
+            <span>MongoDB</span>
+            <span>REST API</span>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-category">Full Stack App</span>
+            <div class="project-links">
+              <a href="https://github.com/Rahultn56/Project-management-" target="_blank" rel="noopener noreferrer" title="View Source Code">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://rahultn56.github.io/Project-management-/" target="_blank" rel="noopener noreferrer" title="Live Demo">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+          <h3>Project & Task Manager</h3>
+          <p>
+            Task tracking web application featuring task creation, priority levels (Low, Medium, High), status filters, real-time metrics, and automatic in-memory MongoDB fallback.
+          </p>
+          <div class="tech-tags">
+            <span>JavaScript</span>
+            <span>Express</span>
+            <span>Mongoose</span>
+            <span>Vite</span>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-category">Web System</span>
+            <div class="project-links">
+              <a href="https://github.com/Rahultn56/Feedback-form" target="_blank" rel="noopener noreferrer" title="View Source Code">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://rahultn56.github.io/Feedback-form/" target="_blank" rel="noopener noreferrer" title="Live Demo">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+          <h3>Interactive Feedback Form</h3>
+          <p>
+            User feedback collection application with star ratings, input validation, category categorization, and MongoDB Atlas database persistence.
+          </p>
+          <div class="tech-tags">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>Node.js</span>
+            <span>MongoDB</span>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-category">Theory & Systems</span>
+            <div class="project-links">
+              <a href="https://github.com/Rahultn56/FoodDelivery-DFA-System" target="_blank" rel="noopener noreferrer" title="View Source Code">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <h3>Food Delivery DFA System</h3>
+          <p>
+            Academic integration project combining Computer Networks (CN), Formal Languages & Automata Theory (FLAT), and Full Stack Web Development with deterministic order tracking.
+          </p>
+          <div class="tech-tags">
+            <span>FLAT / DFA</span>
+            <span>React</span>
+            <span>Socket.io</span>
+            <span>Express</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section id="certificates" class="certificates section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Achievements</span>
+        <h2 class="section-title">Certifications & Courses</h2>
+      </div>
+
+      <div class="cert-grid">
+        <div class="cert-card">
+          <div class="cert-icon">
+            <i class="fa-solid fa-award"></i>
+          </div>
+          <div class="cert-content">
+            <h3>NPTEL Certification</h3>
+            <p>Successfully completed accredited online course approved by NPTEL and MHRD with rigorous proctored examination.</p>
+            <span class="cert-badge">Verified Certification</span>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon">
+            <i class="fa-solid fa-certificate"></i>
+          </div>
+          <div class="cert-content">
+            <h3>Full Stack Web Development</h3>
+            <p>Hands-on development of responsive Single Page Applications, RESTful APIs, and database connectivity with MongoDB.</p>
+            <span class="cert-badge">Academic Coursework</span>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+          <div class="cert-content">
+            <h3>Programming & Data Structures</h3>
+            <p>Fundamentals of structured programming, memory management, algorithmic complexity, and Object-Oriented Programming.</p>
+            <span class="cert-badge">Foundations</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Let's Connect</span>
+        <h2 class="section-title">Contact Me</h2>
+      </div>
+
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <h3>Get In Touch</h3>
+          <p>
+            I am always open to discussing new projects, internship opportunities, or learning collaborations. Feel free to send a message!
+          </p>
+          
+          <div class="info-list">
+            <div class="info-item">
+              <i class="fa-solid fa-envelope"></i>
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:24itr089rahul@gmail.com">24itr089rahul@gmail.com</a>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fa-brands fa-github"></i>
+              <div>
+                <strong>GitHub</strong>
+                <a href="https://github.com/Rahultn56" target="_blank" rel="noopener noreferrer">github.com/Rahultn56</a>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <strong>Location</strong>
+                <span>Tamil Nadu, India</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" placeholder="e.g. John Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" placeholder="e.g. john@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" placeholder="Project Discussion / Feedback" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" rows="4" placeholder="Hello Rahul, I saw your portfolio and..." required></textarea>
+            </div>
+            <button type="submit" id="submitBtn" class="btn btn-primary" style="width: 100%;">
+              <i class="fa-solid fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+          <div id="formStatus" class="form-status"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <p>© <span id="currentYear">2026</span> <strong>Rahul</strong>. Built with HTML, CSS & JavaScript.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/Rahultn56" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:24itr089rahul@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button id="topBtn" class="top-btn" aria-label="Back to Top" title="Back to Top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
